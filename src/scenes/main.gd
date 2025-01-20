@@ -5,5 +5,5 @@ extends Node
 
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	camera_2d.position = player.global_position
